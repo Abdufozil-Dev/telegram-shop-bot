@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: erkaklar-kiyim-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: TOKEN
+        value: "8443927280:AAGG-hrnp1_anHSqAPfeif-gaTijnYe4sYw"
